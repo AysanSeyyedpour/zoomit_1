@@ -1,0 +1,736 @@
+@font-face
+{
+    font-family: "Iran Sans";
+    src: url(./font2/IRANSansRegular.ttf) format("truetype");
+}
+
+body{
+    margin: 0;
+    background-color: #f0f0f0;
+}
+#header{
+    font-family: "Iran Sans";
+}
+
+#nav1{
+    width: 100vw;
+    height: 40px;
+    background-color: #242424;
+    display: flex;
+    font-family: "Iran Sans";
+    direction: ltr;
+    color: #a19c98;
+    font-size: 1rem;
+}
+#nav1Left{
+    width: 190px;
+    height: 40px;
+    background-color: #242424;
+    margin-left: 3.3vw;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+.nav1__leftItems{
+    margin-left: 12px;
+}
+#nav1center{
+    width: 28vw;
+    height: 40px;
+    background-color: #242424;
+}
+
+#nav1right{
+    width: 730px;
+    height: 40px;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    background-color: #242424;
+    margin-right: 30px;
+}
+.nav1__items{
+    margin-left: 12px;
+}
+#firstSection_icon{
+    margin-left: 7px;
+    font-size: 17px;
+    color: #ff0025;
+}
+
+.s_t{
+    cursor: pointer;
+}
+
+.s_t:hover{
+    color: #ffffff;
+}
+
+#nav1right2{
+    width: 145px;
+    height: 40px;
+    background-color: #242424;
+}
+#nav2{
+    width: 100%;
+    height: 73px;
+    background-color: #000000;
+    display: flex;
+    font-family: "Iran Sans";
+    color: #ffffff;
+    font-size: 1.4rem;
+    direction: ltr;
+}
+#nav2Left{
+    width: 180px;
+    height: 73px;
+    background-color: #000000;
+    margin-left: .5rem;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+.nav2leftIcons{
+    padding-right: 1.2rem;
+    color: #efeff7;
+    cursor: pointer;
+}
+#nav2center{
+    width: 12vw;
+    height: 73px;
+    background-color: #000000;
+}
+#nav2right{
+    width: 950px;
+    height: 73px;
+    background-color: #000000;
+    display: flex;
+    direction: rtl;
+    font-size: 1.1rem;
+    align-items: center;
+}
+#nav2_action{
+    border-radius: 20px;
+    background-color: #404040;
+    padding: 3px 13px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+#nav2_action:hover{
+    background-color: #ff0025;
+}
+.nav2right-parts{
+    color: #ffffff;
+    padding-right: .7rem;
+    cursor: pointer;
+}
+.nav2right-icons{
+    color: #ffffff;
+    align-items: center;
+    padding-right: .2rem;
+    padding-top: .6rem;
+    cursor: pointer;
+}
+
+#nav2right2{
+    width: 150.5px;
+    height: 73px;
+    background-color: #000000;
+}
+#nav2right2_image{
+    width: 150.5px;
+    height: 73px;
+    cursor: pointer;
+}
+#header-first-adBox{
+    height: auto;
+    margin: 1rem auto .5rem;
+    align-items: center;
+}
+
+.navResponsive{
+    display: none;
+}
+.navResponsive ul{
+    display: none;
+}
+.navResponsive ul li{
+    display: none;
+}
+.resNavListParts{
+    display: none;
+}
+.resNavListParts ul{
+    display: none;
+}
+.resNavListParts ul li{
+    display: none;
+}
+#header-firstad{
+    display: block;
+    max-width: 100%;
+    border: .1px solid black;
+    margin:  auto;
+    height: auto;
+}
+
+.fourthPart{
+    width: calc(100vw - 3rem);
+    margin: 2rem auto 2rem;
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+}
+
+#left{
+    width: calc(22vw);
+}
+
+#lefttop{
+    width: calc(22vw);
+    height: 41vh;
+    margin-bottom: 1rem;
+}
+
+#modiran-khodro{
+    width: calc(22vw);
+    height: 41vh;
+}
+#leftbottom{
+    width: calc(22vw);
+    height: 41vh;
+}
+#bank-parsian{
+    width: calc(22vw);
+    height: 41vh;
+}
+#center{
+    width: calc(19vw);
+    margin-left: .8rem;
+}
+
+#centertop{
+    width: calc(19vw);
+    height: 28.5vh;
+    background-image: url(photo_phone/v2.webp);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    margin-bottom: .1rem;
+    text-align: right;
+    color: white;
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+    font-family: "Iran Sans";
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#centerbottom{
+    width: calc(19vw);
+    height: 56vh;
+    background-image: url(photo_phone/galaxy-s21-\(1\).webp);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: right;
+    color: white;
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+    font-family: "Iran Sans";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#right{
+    margin-left: .1rem;
+}
+
+#righttop{
+    width: calc(54vw);
+    height: 56vh;
+    background-image: url(photo_phone/apple-airpods-max-unboxing-cover.webp);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: right;
+    color: white;
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+    font-family: "Iran Sans";
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: .1rem;
+}
+
+#rightbottom{
+    width: calc(54vw);
+    height: 28.59vh;
+    display: flex;
+
+}
+
+#rightbottomLeft{
+    width: calc(27vw);
+    height: 28.59vh;
+    margin-right: .1rem;
+    background-image: url(photo_phone/lifan-x70-84.webp);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: right;
+    color: white;
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+    font-family: "Iran Sans";
+    font-size: 25px;
+    font-weight: 400;
+    direction: rtl;
+}
+
+#rightbottomRight{
+    width: calc(27vw);
+    height: 28.59vh;
+    background-image: url(photo_phone/huawei-y7a-back-on-backdrop-background-clapper-board\,-black-and-brown-background.webp);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: right;
+    color: white;
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+    font-family: "Iran Sans";
+    font-size: 25px;
+    font-weight: 400;
+    direction: rtl;
+}
+
+#middle{
+    width: calc(100vw - 2rem);
+    height: 280px;
+    margin: 30px auto 4px;
+    font-family: "Iran Sans";
+    direction: ltr;
+}
+#middletop{
+    width: calc(100vw - 3rem);
+    height: 70px;
+    align-items: center;
+    text-align: right;
+    color: #707070;
+}
+#middlebottom{
+    width: calc(100vw - 2rem);
+    height: 210px;
+    display: flex;
+    color: #383347;
+    font-size: 18px;
+}
+.middleBottomParts{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#middleBottomPartsImage5{
+    width: 200px;
+    height: 140px;
+    cursor: pointer;
+    border: .5px solid #dddddd;
+}
+#middleBottomPartsImage4{
+    width: 200px;
+    height: 140px;
+    cursor: pointer;
+    border: .5px solid #dddddd;
+}
+#middleBottomPartsImage3{
+    width: 200px;
+    height: 140px;
+    cursor: pointer;
+    border: .5px solid #dddddd;
+}
+#middleBottomPartsImage2{
+    width: 200px;
+    height: 140px;
+    cursor: pointer;
+    border: .5px solid #dddddd;
+}
+#middleBottomPartsImage1{
+    width: 200px;
+    height: 140px;
+    cursor: pointer;
+    border: .5px solid #dddddd;
+}
+.middleBottomPartsText{
+    text-align: right;
+    line-height: 20px;
+    padding-right: 6px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.middleBottomPartsText:hover{
+    color: #ff0025;
+}
+#footerresponsive{
+    display: none;
+}
+#footer{
+    width: 100vw;
+    height: 600px;
+    background-color: #222222;
+    direction: ltr;
+    margin-top: 5vh;
+}
+#footer1{
+    width: 100vw;
+    height: 550px;
+    background-color: #222222;
+}
+#footer1-top{
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.footer1TopParts{
+    width: calc(25vw - 1rem);
+    height: 450px;
+    margin: 20px auto 12px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    font-family: "Iran Sans";
+    align-items: center;
+    
+}
+#footer1Top4-top{
+    width: calc(25vw - 1rem);
+    height: 60px;
+    text-align: right;
+    background-color: #222222;
+    font-size: 13px;
+    color: #ffffff;
+}
+#footer1Top4-top div{
+    padding-right: 7px;
+}
+#footer1Top4-center{
+    width: calc(25vw - 1rem);
+    height: 240px;
+    background-color: #222222;
+    font-size: 17px;
+    text-align: right;
+}
+#footer1Top4-center ul{
+    list-style: none;
+    padding-right: 7px;
+    line-height: 15px;
+    color: #a2aaaa;
+    cursor: pointer;
+}
+#footer1Top4-center li:hover{
+    color: red;
+}
+#footer1Top4-bottom{
+    width: calc(25vw - 1rem);
+    height: 150px;
+    background-color: #222222;
+    align-items: center;
+}
+#footer1Top4-bottom-text{
+    padding-right: 25px;
+    text-align: right;
+    font-size: 13px;
+    color: #ffffff;
+}
+#footer1Top4-bottom-input{
+    width: calc(24vw - 2rem);
+    height: 34px;
+    margin-left: 1.6rem;
+    background-color: #a2aaaa;
+    display: flex;
+    align-items: center;
+}
+#footer1Top4-bottom-input-left{
+    width: 4.4vw;
+    height: 35px;
+    background-color: #ff1111;
+    border-right: 1px solid white;
+    color: #ffffff;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+#footer1Top4-bottom-input-left-text{
+    padding-left: 11px;
+    padding-top: 5px;
+}
+#footer1Top4-bottom-input-center{
+    width: 13.5vw;
+    height: 35px;
+    background-color: #222222;
+}
+#footerInput{
+    width: 13.8vw;
+    height: 33px;
+    background-color: #a2aaaa;
+    text-align: right;
+    font-size: 1rem;
+    font-family: "Iran Sans";
+    border: none;
+    border-right: 1px solid white;
+}
+#footer1Top4-bottom-input-right{
+    width: 2.5vw;
+    height: 35px;
+    margin-left: 6.5px;
+    text-align: right;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 8px;
+}
+#footer1Top3-top{
+    width: calc(25vw - 1rem);
+    height: 96px;
+    text-align: right;
+    background-color: #222222;
+    font-size: 13px;
+    color: #ffffff;
+}
+#footer1Top3-top div{
+    padding-right: 7px;
+}
+#footer1Top3-bottom{
+    width: calc(25vw - 1rem);
+    height: 320px;
+    background-color: #222222;
+    font-size: 17px;
+    text-align: right;
+}
+#footer1Top3-bottom ul{
+    list-style: none;
+    padding-right: 7px;
+    line-height: 15px;
+    color: #a2aaaa;
+    cursor: pointer;
+}
+#footer1Top3-bottom li:hover{
+    color: red;
+}
+#footer1Top2-top {
+    width: calc(25vw - 1rem);
+    height: 96px;
+    text-align: right;
+    background-color: #222222;
+    font-size: 13px;
+    color: #ffffff;
+}
+#footer1Top2-top div{
+    padding-right: 7px;
+}
+#footer1Top2-bottom{
+    width: calc(25vw - 1rem);
+    height: 353.5px;
+    background-color: #222222;
+    font-size: 17px;
+    text-align: right;
+}
+#footer1Top2-bottom-top{
+    width: calc(25vw - 1rem);
+    height: 105px;
+    margin: auto;
+    background-color: #222222;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+#footer1Top2-bottom-center{
+    width: calc(25vw - 1rem);
+    height: 105px;
+    margin: auto;
+    background-color: #222222;
+    margin-bottom: 12px;
+}
+#footer1Top2-bottom-bottom{
+    width: calc(25vw - 1rem);
+    height: 105px;
+    margin: auto;
+    background-color: #222222;
+}
+#footer1Top2-bottom-top{
+    display: flex;
+    flex-direction: row;
+}
+#footer1Top2-bottom-Image{
+    width: 100px;
+    height: 105px;
+}
+#footer1Top2-bottom-Text{
+    padding-right: 10px;
+    padding-top: 20px;
+    line-height: 28px;
+    color: #a2aaaa;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#footer1Top2-bottom-center{
+    display: flex;
+    flex-direction: row;
+}
+#footer1Top2-bottom-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer1Top2-bottom-Text:hover{
+    color: red;
+}
+
+#footer1Top1-top {
+    width: calc(25vw - 1rem);
+    height: 96px;
+    text-align: right;
+    background-color: #222222;
+    font-size: 13px;
+    color: #ffffff;
+}
+#footer1Top1-top div{
+    padding-right: 7px;
+}
+#footer1Top1-bottom{
+    width: calc(25vw - 1rem);
+    height: 353.5px;
+    background-color: #222222;
+    font-size: 17px;
+    text-align: right;
+}
+#footer1Top1-bottom-top{
+    width: calc(25vw - 1rem);
+    height: 105px;
+    margin: auto;
+    background-color: #222222;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+#footer1Top1-bottom-center{
+    width: calc(25vw - 1rem);
+    height: 105px;
+    margin: auto;
+    background-color: #222222;
+    margin-bottom: 12px;
+}
+#footer1Top1-bottom-bottom{
+    width: calc(25vw - 1rem);
+    height: 105px;
+    margin: auto;
+    background-color: #222222;
+}
+#footer1Top1-bottom-top{
+    display: flex;
+    flex-direction: row;
+}
+#footer1Top1-bottom-Image{
+    width: 100px;
+    height: 105px;
+}
+#footer1Top1-bottom-Text{
+    padding-right: 10px;
+    padding-top: 20px;
+    line-height: 28px;
+    color: #a2aaaa;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#footer1Top1-bottom-center{
+    display: flex;
+    flex-direction: row;
+}
+#footer1Top1-bottom-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer1Top1-bottom-Text:hover{
+    color: red;
+}
+#footer1Bootom{
+    width: calc(100vw - 2rem);
+    height: 90px;
+    margin: auto;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Iran Sans";
+    align-items: center;
+}
+#footer1Bootom-left{
+    color: #ffffff;
+    direction: rtl;
+    font-size: larger;
+    margin-left: 47vw;
+    margin-bottom: 2vw;
+}
+#footer1Bootom-image{
+    width: 150px;
+    height: 90px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#parspack{
+    color: #ff1111;
+    cursor: pointer;
+}
+#footer2{
+    width: 100vw;
+    height: 50px;
+    background-color: #000000;
+    display: flex;
+    font-family: "Iran Sans";
+    color: #ffffff;
+    justify-content: space-between;
+    text-align: right;
+}
+#footer2-left{
+    width: 30vw;
+    height: 50px;
+    display: flex;
+    margin-left: 3vw;
+}
+.footer2-item{
+    width: 9vw;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: #000000;
+    font-size: 18px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.footer2-item div{
+    padding-bottom: 15px;
+    padding-right: 4px;
+}
+#footer2-itemLeftRight{
+    padding-right: 45px;
+}
+.footer2-item:hover{
+    color: red;
+    cursor: pointer;
+}
+#footer2-right{
+    direction: rtl;
+    font-size: 18px;
+    padding-right: 40px;
+    padding-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: right;
+}
+#footer2-right span{
+    padding-top: 12px;
+    font-size: 14px;
+}
